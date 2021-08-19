@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/input_type_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:inputType="text"
+        android:fontFamily="monospace"
+        android:text="Анкета" />
+
+    <EditText
+        android:id="@+id/input_type_textPersonName"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:fontFamily="monospace"
+        android:textColor="@color/purple_500"
+        android:text="Имя" />
+
+    <EditText
+        android:id="@+id/input_type_phone"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:inputType="phone"
+        android:textAlignment="center"
+        android:fontFamily="monospace"
+        android:textColor="@color/teal_700"
+        android:text="Телефон" />
+
+    <EditText
+        android:id="@+id/input_type_number"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:fontFamily="monospace"
+        android:inputType="number"
+        android:text="Номер"
+        android:textAlignment="center"
+        android:textColor="#FF9800" />
+
+    <EditText
+        android:id="@+id/input_type_textPassword"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:fontFamily="monospace"
+        android:inputType="textPassword"
+        android:text="Пароль"
+        android:textAlignment="center"
+        android:textColor="#3F51B5" />
+
+    <EditText
+        android:id="@+id/input_type_textEmailAddress"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:fontFamily="monospace"
+        android:inputType="textEmailAddress"
+        android:text="Email"
+        android:textAlignment="center"
+        android:textColor="#4BB53F" />
+
+    <CalendarView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+
+</LinearLayout>
